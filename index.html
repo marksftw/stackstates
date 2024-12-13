@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>US States Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="map-container">
+        <!-- SVG will be loaded here -->
+    </div>
+
+    <!-- Modal Structure -->
+    <div class="modal micromodal-slide" id="state-modal" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+                <header class="modal__header">
+                    <h2 id="modal-title"></h2>
+                    <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+                </header>
+                <div class="modal__content" id="modal-content">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script src="scripts/stateData.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
