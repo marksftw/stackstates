@@ -2,257 +2,257 @@ const stateData = {
     'AL': {
         name: 'Alabama',
         status: 'none',
-        details: 'Alabama details here...'
+        details: 'Nothing...yet'
     },
     'AK': {
         name: 'Alaska',
         status: 'none',
-        details: 'Alaska details here...'
+        details: 'Nothing...yet'
     },
     'AZ': {
         name: 'Arizona',
         status: 'none',
-        details: 'Arizona details here...'
+        details: 'Nothing...yet'
     },
     'AR': {
         name: 'Arkansas',
         status: 'none',
-        details: 'Arkansas details here...'
+        details: 'Nothing...yet'
     },
     'CA': {
         name: 'California',
         status: 'none',
-        details: 'California details here...'
+        details: 'Nothing...yet'
     },
     'CO': {
         name: 'Colorado',
         status: 'none',
-        details: 'Colorado details here...'
+        details: 'Nothing...yet'
     },
     'CT': {
         name: 'Connecticut',
         status: 'none',
-        details: 'Connecticut details here...'
+        details: 'Nothing...yet'
     },
     'DE': {
         name: 'Delaware',
         status: 'none',
-        details: 'Delaware details here...'
+        details: 'Nothing...yet'
     },
     'FL': {
         name: 'Florida',
         status: 'none',
-        details: 'Florida details here...'
+        details: 'Nothing...yet'
     },
     'GA': {
         name: 'Georgia',
         status: 'none',
-        details: 'Georgia details here...'
+        details: 'Nothing...yet'
     },
     'HI': {
         name: 'Hawaii',
         status: 'none',
-        details: 'Hawaii details here...'
+        details: 'Nothing...yet'
     },
     'ID': {
         name: 'Idaho',
         status: 'none',
-        details: 'Idaho details here...'
+        details: 'Nothing...yet'
     },
     'IL': {
         name: 'Illinois',
         status: 'none',
-        details: 'Illinois details here...'
+        details: 'Nothing...yet'
     },
     'IN': {
         name: 'Indiana',
         status: 'none',
-        details: 'Indiana details here...'
+        details: 'Nothing...yet'
     },
     'IA': {
         name: 'Iowa',
         status: 'none',
-        details: 'Iowa details here...'
+        details: 'Nothing...yet'
     },
     'KS': {
         name: 'Kansas',
         status: 'none',
-        details: 'Kansas details here...'
+        details: 'Nothing...yet'
     },
     'KY': {
         name: 'Kentucky',
         status: 'none',
-        details: 'Kentucky details here...'
+        details: 'Nothing...yet'
     },
     'LA': {
         name: 'Louisiana',
         status: 'none',
-        details: 'Louisiana details here...'
+        details: 'Nothing...yet'
     },
     'ME': {
         name: 'Maine',
         status: 'none',
-        details: 'Maine details here...'
+        details: 'Nothing...yet'
     },
     'MD': {
         name: 'Maryland',
         status: 'none',
-        details: 'Maryland details here...'
+        details: 'Nothing...yet'
     },
     'MA': {
         name: 'Massachusetts',
         status: 'none',
-        details: 'Massachusetts details here...'
+        details: 'Nothing...yet'
     },
     'MI': {
         name: 'Michigan',
         status: 'none',
-        details: 'Michigan details here...'
+        details: 'Nothing...yet'
     },
     'MN': {
         name: 'Minnesota',
         status: 'none',
-        details: 'Minnesota details here...'
+        details: 'Nothing...yet'
     },
     'MS': {
         name: 'Mississippi',
         status: 'none',
-        details: 'Mississippi details here...'
+        details: 'Nothing...yet'
     },
     'MO': {
         name: 'Missouri',
         status: 'none',
-        details: 'Missouri details here...'
+        details: 'Nothing...yet'
     },
     'MT': {
         name: 'Montana',
         status: 'none',
-        details: 'Montana details here...'
+        details: 'Nothing...yet'
     },
     'NE': {
         name: 'Nebraska',
         status: 'none',
-        details: 'Nebraska details here...'
+        details: 'Nothing...yet'
     },
     'NV': {
         name: 'Nevada',
         status: 'none',
-        details: 'Nevada details here...'
+        details: 'Nothing...yet'
     },
     'NH': {
         name: 'New Hampshire',
         status: 'none',
-        details: 'New Hampshire details here...'
+        details: 'Nothing...yet'
     },
     'NJ': {
         name: 'New Jersey',
         status: 'none',
-        details: 'New Jersey details here...'
+        details: 'Nothing...yet'
     },
     'NM': {
         name: 'New Mexico',
         status: 'none',
-        details: 'New Mexico details here...'
+        details: 'Nothing...yet'
     },
     'NY': {
         name: 'New York',
         status: 'none',
-        details: 'New York details here...'
+        details: 'Nothing...yet'
     },
     'NC': {
         name: 'North Carolina',
         status: 'none',
-        details: 'North Carolina details here...'
+        details: 'Nothing...yet'
     },
     'ND': {
         name: 'North Dakota',
         status: 'none',
-        details: 'North Dakota details here...'
+        details: 'Nothing...yet'
     },
     'OH': {
         name: 'Ohio',
         status: 'none',
-        details: 'Ohio details here...'
+        details: 'Nothing...yet'
     },
     'OK': {
         name: 'Oklahoma',
         status: 'none',
-        details: 'Oklahoma details here...'
+        details: 'Nothing...yet'
     },
     'OR': {
         name: 'Oregon',
         status: 'none',
-        details: 'Oregon details here...'
+        details: 'Nothing...yet'
     },
     'PA': {
         name: 'Pennsylvania',
-        status: 'none',
-        details: 'Pennsylvania details here...'
+        status: 'pending',
+        details: 'Bitcoin Strategic Reserve legislation introduced. Will provide a link soon.'
     },
     'RI': {
         name: 'Rhode Island',
         status: 'none',
-        details: 'Rhode Island details here...'
+        details: 'Nothing...yet'
     },
     'SC': {
         name: 'South Carolina',
         status: 'none',
-        details: 'South Carolina details here...'
+        details: 'Nothing...yet'
     },
     'SD': {
         name: 'South Dakota',
         status: 'none',
-        details: 'South Dakota details here...'
+        details: 'Nothing...yet'
     },
     'TN': {
         name: 'Tennessee',
         status: 'none',
-        details: 'Tennessee details here...'
+        details: 'Nothing...yet'
     },
     'TX': {
         name: 'Texas',
-        status: 'none',
-        details: 'Texas details here...'
+        status: 'pending',
+        details: 'Bitcoin Strategic Reserve legislation introduced. Will provide a link soon.'
     },
     'UT': {
         name: 'Utah',
         status: 'none',
-        details: 'Utah details here...'
+        details: 'Nothing...yet'
     },
     'VT': {
         name: 'Vermont',
         status: 'none',
-        details: 'Vermont details here...'
+        details: 'Nothing...yet'
     },
     'VA': {
         name: 'Virginia',
         status: 'none',
-        details: 'Virginia details here...'
+        details: 'Nothing...yet'
     },
     'WA': {
         name: 'Washington',
         status: 'none',
-        details: 'Washington details here...'
+        details: 'Nothing...yet'
     },
     'WV': {
         name: 'West Virginia',
         status: 'none',
-        details: 'West Virginia details here...'
+        details: 'Nothing...yet'
     },
     'WI': {
         name: 'Wisconsin',
         status: 'none',
-        details: 'Wisconsin details here...'
+        details: 'Nothing...yet'
     },
     'WY': {
         name: 'Wyoming',
         status: 'none',
-        details: 'Wyoming details here...'
+        details: 'Nothing...yet'
     },
     'DC': {
         name: 'District of Columbia',
         status: 'none',
-        details: 'District of Columbia details here...'
+        details: 'Nothing...yet'
     }
 };
 
