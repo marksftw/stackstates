@@ -5,6 +5,33 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="header-container">
+        <h1 class="page-title">US State Adoption of Bitcoin</h1>
+        <p class="page-description">
+            Current status of legislative state adoption of Bitcoin, typically in the form of a Bitcoin Strategic Reserve.<br>
+            Click on a state to see details and links to official legislation and news.
+        </p>
+        <h2 class="page-subtitle">Stay Humble and Stack States</h2>
+    </div>
+
+    <div class="legend-container">
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #ff9900;"></div>
+            <span class="legend-text">Passed</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #ffcd81;"></div>
+            <span class="legend-text">Pending</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #AAAAAA;"></div>
+            <span class="legend-text">None</span>
+        </div>
+        <!-- Add more legend items as needed -->
+    </div>
+
+    <p class="footer-text">stackstates.com</p>
+
     <div id="map-container">
         <!-- SVG will be loaded here -->
     </div>
@@ -26,5 +53,12 @@
     <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
     <script src="scripts/stateData.js"></script>
     <script src="scripts/main.js"></script>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Send updates and feedback to Marks on <a href="https://x.com/marks_ftw" target="_blank">X</a>, <a href="https://primal.net/marks" target="_blank">Nostr</a>, or submit an issue on <a href="https://github.com/marksftw/stackstates" target="_blank">Github</a>.</p>
+            <p><a href="https://trymaple.ai" target="_blank">Want to use AI chat with complete privacy? Check out Maple AI</a>.</p>
+        </div>
+    </footer>
 </body>
 </html>

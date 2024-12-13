@@ -4,13 +4,15 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    position: relative;
+    padding-left: 8%;
+    display: block;
+    text-align: center;
 }
 
 #map-container svg {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    display: block;
+    height: auto;
+    display: inline-block;
 }
 
 /* Ensure the container maintains aspect ratio */
@@ -103,4 +105,108 @@ body {
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header-container {
+    text-align: center; /* Center align the text */
+    margin: 20px; /* Add some margin */
+}
+
+.page-title {
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font */
+    font-size: 2.5em; /* Larger font size for the title */
+    color: #333; /* Dark gray color */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.page-subtitle {
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font */
+    font-size: 1.5em; /* Medium font size for the subtitle */
+    color: #555; /* Medium gray color */
+    margin-bottom: 15px; /* Space below the subtitle */
+}
+
+.page-description {
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font */
+    font-size: 1em; /* Normal font size for the paragraph */
+    color: #666; /* Light gray color */
+    line-height: 1.5; /* Increase line height for readability */
+    max-width: 800px; /* Limit the width of the paragraph */
+    margin: 0 auto; /* Center the paragraph */
+}
+
+.legend-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the legend items */
+    margin-bottom: 20px; /* Space below the legend */
+}
+
+.legend-item {
+    display: flex; /* Use flexbox for each legend item */
+    align-items: center; /* Center items vertically */
+    margin-right: 15px; /* Space between legend items */
+}
+
+.legend-color {
+    width: 20px; /* Width of the color box */
+    height: 20px; /* Height of the color box */
+    border: 1px solid #000; /* Optional border for better visibility */
+}
+
+.legend-text {
+    margin-left: 5px; /* Space between the color box and text */
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font */
+    font-size: 1em; /* Font size for the legend text */
+    color: #333; /* Dark gray color for text */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f1f1f1; /* Light gray background */
+    padding: 20px; /* Padding around the footer */
+    text-align: center; /* Center align the text */
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font */
+    font-size: 0.9em; /* Slightly smaller font size */
+    color: #333; /* Dark gray color for text */
+    position: relative; /* Position relative for any future adjustments */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
+
+.footer-content {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content */
+}
+
+:root {
+    --color-passed: #4CAF50; /* Green for passed */
+    --color-pending: #FFC107; /* Solid orange for pending */
+    --color-none: #F44336; /* Red for none */
+}
+
+/* Update legend colors */
+.legend-color {
+    width: 20px; /* Width of the color box */
+    height: 20px; /* Height of the color box */
+    border: 1px solid #000; /* Optional border for better visibility */
+}
+
+.legend-item:nth-child(1) .legend-color {
+    background-color: var(--color-passed);
+}
+
+.legend-item:nth-child(2) .legend-color {
+    background-color: var(--color-pending); /* Use solid orange for pending */
+}
+
+.legend-item:nth-child(3) .legend-color {
+    background-color: var(--color-none);
+}
+
+.footer-text {
+    text-align: center; /* Center align the text */
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font */
+    font-size: 0.8em; /* Smaller font size */
+    color: #333; /* Dark gray color for text */
+    margin-top: 10px; /* Space above the text */
 } 

@@ -1,263 +1,263 @@
 const stateData = {
     'AL': {
         name: 'Alabama',
-        status: 'active',
+        status: 'none',
         details: 'Alabama details here...'
     },
     'AK': {
         name: 'Alaska',
-        status: 'inactive',
+        status: 'none',
         details: 'Alaska details here...'
     },
     'AZ': {
         name: 'Arizona',
-        status: 'pending',
+        status: 'none',
         details: 'Arizona details here...'
     },
     'AR': {
         name: 'Arkansas',
-        status: 'active',
+        status: 'none',
         details: 'Arkansas details here...'
     },
     'CA': {
         name: 'California',
-        status: 'active',
+        status: 'none',
         details: 'California details here...'
     },
     'CO': {
         name: 'Colorado',
-        status: 'inactive',
+        status: 'none',
         details: 'Colorado details here...'
     },
     'CT': {
         name: 'Connecticut',
-        status: 'pending',
+        status: 'none',
         details: 'Connecticut details here...'
     },
     'DE': {
         name: 'Delaware',
-        status: 'active',
+        status: 'none',
         details: 'Delaware details here...'
     },
     'FL': {
         name: 'Florida',
-        status: 'inactive',
+        status: 'none',
         details: 'Florida details here...'
     },
     'GA': {
         name: 'Georgia',
-        status: 'pending',
+        status: 'none',
         details: 'Georgia details here...'
     },
     'HI': {
         name: 'Hawaii',
-        status: 'active',
+        status: 'none',
         details: 'Hawaii details here...'
     },
     'ID': {
         name: 'Idaho',
-        status: 'inactive',
+        status: 'none',
         details: 'Idaho details here...'
     },
     'IL': {
         name: 'Illinois',
-        status: 'pending',
+        status: 'none',
         details: 'Illinois details here...'
     },
     'IN': {
         name: 'Indiana',
-        status: 'active',
+        status: 'none',
         details: 'Indiana details here...'
     },
     'IA': {
         name: 'Iowa',
-        status: 'inactive',
+        status: 'none',
         details: 'Iowa details here...'
     },
     'KS': {
         name: 'Kansas',
-        status: 'pending',
+        status: 'none',
         details: 'Kansas details here...'
     },
     'KY': {
         name: 'Kentucky',
-        status: 'active',
+        status: 'none',
         details: 'Kentucky details here...'
     },
     'LA': {
         name: 'Louisiana',
-        status: 'inactive',
+        status: 'none',
         details: 'Louisiana details here...'
     },
     'ME': {
         name: 'Maine',
-        status: 'pending',
+        status: 'none',
         details: 'Maine details here...'
     },
     'MD': {
         name: 'Maryland',
-        status: 'active',
+        status: 'none',
         details: 'Maryland details here...'
     },
     'MA': {
         name: 'Massachusetts',
-        status: 'inactive',
+        status: 'none',
         details: 'Massachusetts details here...'
     },
     'MI': {
         name: 'Michigan',
-        status: 'inactive',
+        status: 'none',
         details: 'Michigan details here...'
     },
     'MN': {
         name: 'Minnesota',
-        status: 'active',
+        status: 'none',
         details: 'Minnesota details here...'
     },
     'MS': {
         name: 'Mississippi',
-        status: 'inactive',
+        status: 'none',
         details: 'Mississippi details here...'
     },
     'MO': {
         name: 'Missouri',
-        status: 'pending',
+        status: 'none',
         details: 'Missouri details here...'
     },
     'MT': {
         name: 'Montana',
-        status: 'active',
+        status: 'none',
         details: 'Montana details here...'
     },
     'NE': {
         name: 'Nebraska',
-        status: 'inactive',
+        status: 'none',
         details: 'Nebraska details here...'
     },
     'NV': {
         name: 'Nevada',
-        status: 'pending',
+        status: 'none',
         details: 'Nevada details here...'
     },
     'NH': {
         name: 'New Hampshire',
-        status: 'active',
+        status: 'none',
         details: 'New Hampshire details here...'
     },
     'NJ': {
         name: 'New Jersey',
-        status: 'inactive',
+        status: 'none',
         details: 'New Jersey details here...'
     },
     'NM': {
         name: 'New Mexico',
-        status: 'pending',
+        status: 'none',
         details: 'New Mexico details here...'
     },
     'NY': {
         name: 'New York',
-        status: 'active',
+        status: 'none',
         details: 'New York details here...'
     },
     'NC': {
         name: 'North Carolina',
-        status: 'inactive',
+        status: 'none',
         details: 'North Carolina details here...'
     },
     'ND': {
         name: 'North Dakota',
-        status: 'pending',
+        status: 'none',
         details: 'North Dakota details here...'
     },
     'OH': {
         name: 'Ohio',
-        status: 'active',
+        status: 'none',
         details: 'Ohio details here...'
     },
     'OK': {
         name: 'Oklahoma',
-        status: 'inactive',
+        status: 'none',
         details: 'Oklahoma details here...'
     },
     'OR': {
         name: 'Oregon',
-        status: 'pending',
+        status: 'none',
         details: 'Oregon details here...'
     },
     'PA': {
         name: 'Pennsylvania',
-        status: 'active',
+        status: 'none',
         details: 'Pennsylvania details here...'
     },
     'RI': {
         name: 'Rhode Island',
-        status: 'inactive',
+        status: 'none',
         details: 'Rhode Island details here...'
     },
     'SC': {
         name: 'South Carolina',
-        status: 'pending',
+        status: 'none',
         details: 'South Carolina details here...'
     },
     'SD': {
         name: 'South Dakota',
-        status: 'active',
+        status: 'none',
         details: 'South Dakota details here...'
     },
     'TN': {
         name: 'Tennessee',
-        status: 'inactive',
+        status: 'none',
         details: 'Tennessee details here...'
     },
     'TX': {
         name: 'Texas',
-        status: 'pending',
+        status: 'none',
         details: 'Texas details here...'
     },
     'UT': {
         name: 'Utah',
-        status: 'active',
+        status: 'none',
         details: 'Utah details here...'
     },
     'VT': {
         name: 'Vermont',
-        status: 'inactive',
+        status: 'none',
         details: 'Vermont details here...'
     },
     'VA': {
         name: 'Virginia',
-        status: 'pending',
+        status: 'none',
         details: 'Virginia details here...'
     },
     'WA': {
         name: 'Washington',
-        status: 'active',
+        status: 'none',
         details: 'Washington details here...'
     },
     'WV': {
         name: 'West Virginia',
-        status: 'inactive',
+        status: 'none',
         details: 'West Virginia details here...'
     },
     'WI': {
         name: 'Wisconsin',
-        status: 'pending',
+        status: 'none',
         details: 'Wisconsin details here...'
     },
     'WY': {
         name: 'Wyoming',
-        status: 'active',
+        status: 'none',
         details: 'Wyoming details here...'
     },
     'DC': {
         name: 'District of Columbia',
-        status: 'active',
+        status: 'none',
         details: 'District of Columbia details here...'
     }
 };
 
 const statusColors = {
-    'active': '#4CAF50',
-    'inactive': '#F44336',
-    'pending': '#FFC107'
+    'passed': '#ff9900',
+    'pending': '#ffcd81',
+    'none': '#AAAAAA'
 }; 
