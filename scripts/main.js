@@ -87,7 +87,37 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to show the modal
     function showModal(data) {
         document.getElementById('modal-title').textContent = data.name;
-        document.getElementById('modal-content').innerHTML = data.details;
+
+        // Create a bullet list for the details
+        const detailsList = document.createElement('ul');
+        data.details.forEach(detail => {
+            const listItem = document.createElement('li');
+
+            // Check if the detail is a URL
+            if (isValidURL(detail)) {
+                const link = document.createElement('a');
+                link.href = detail; // Set the URL
+                link.textContent = detail; // Set the link text
+                link.target = '_blank'; // Open in a new tab
+                link.rel = 'noopener noreferrer'; // Security best practice
+                listItem.appendChild(link); // Append the link to the list item
+            } else {
+                listItem.textContent = detail; // Set the text for the list item
+            }
+
+            detailsList.appendChild(listItem); // Append the list item to the list
+        });
+
+        // Clear previous content and append the new list
+        const modalContent = document.getElementById('modal-content');
+        modalContent.innerHTML = ''; // Clear previous content
+        modalContent.appendChild(detailsList); // Append the new list
         MicroModal.show('state-modal');
+    }
+
+    // Function to check if a string is a valid URL
+    function isValidURL(string) {
+        const res = string.match(/(https?:\/\/[^\s]+)/g);
+        return (res !== null);
     }
 });

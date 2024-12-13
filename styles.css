@@ -54,10 +54,12 @@
     background-color: #fff;
     padding: 30px;
     max-width: 500px;
-    max-height: 100vh;
+    max-height: 80vh;
     border-radius: 4px;
     overflow-y: auto;
     box-sizing: border-box;
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 .modal__header {
