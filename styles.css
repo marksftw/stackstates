@@ -1,10 +1,11 @@
 /* Map Container Styles */
 #map-container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
     margin: 0 auto;
     padding: 20px;
-    padding-left: 8%;
     display: block;
     text-align: center;
 }
@@ -12,7 +13,10 @@
 #map-container svg {
     width: 100%;
     height: auto;
-    display: inline-block;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
 }
 
 /* Ensure the container maintains aspect ratio */
@@ -54,6 +58,7 @@
     background-color: #fff;
     padding: 30px;
     max-width: 500px;
+    width: 100%;
     max-height: 80vh;
     border-radius: 4px;
     overflow-y: auto;
@@ -107,25 +112,41 @@ body {
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 .header-container {
     text-align: center; /* Center align the text */
-    margin: 20px; /* Add some margin */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in width calculations */
+}
+
+.page-title, .page-subtitle, .page-description {
+    margin: 0 auto; /* Center the content */
+    padding: 0 15px; /* Add some horizontal padding */
+    max-width: 100%; /* Ensure it doesn't exceed 100% */
+    box-sizing: border-box; /* Include padding in width calculations */
 }
 
 .page-title {
     font-family: 'Arial', sans-serif; /* Use a sans-serif font */
     font-size: 2.5em; /* Larger font size for the title */
     color: #333; /* Dark gray color */
-    margin-bottom: 10px; /* Space below the title */
+    margin-bottom: 30px; /* Increased space below the title */
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .page-subtitle {
     font-family: 'Arial', sans-serif; /* Use a sans-serif font */
     font-size: 1.5em; /* Medium font size for the subtitle */
     color: #555; /* Medium gray color */
-    margin-bottom: 15px; /* Space below the subtitle */
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .page-description {
@@ -135,12 +156,17 @@ body {
     line-height: 1.5; /* Increase line height for readability */
     max-width: 800px; /* Limit the width of the paragraph */
     margin: 0 auto; /* Center the paragraph */
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-top: 20px; /* Add space above the description */
+    margin-bottom: 20px;
 }
 
 .legend-container {
     display: flex; /* Use flexbox for horizontal layout */
     justify-content: center; /* Center the legend items */
-    margin-bottom: 20px; /* Space below the legend */
+    margin-top: 20px; /* Space below the legend */
 }
 
 .legend-item {
@@ -173,6 +199,9 @@ body {
     position: relative; /* Position relative for any future adjustments */
     bottom: 0; /* Stick to the bottom */
     width: 100%; /* Full width */
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-content {
@@ -211,4 +240,19 @@ body {
     font-size: 0.8em; /* Smaller font size */
     color: #333; /* Dark gray color for text */
     margin-top: 10px; /* Space above the text */
+}
+/* Media query for mobile screens */
+@media (max-width: 600px) {
+    .modal__container {
+        width: 90%;
+        max-width: 90%;
+        height: auto;
+        padding: 20px;
+    }
 } 
+
+/* * {
+    box-sizing: border-box; /* Apply border-box model to all elements */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+} */

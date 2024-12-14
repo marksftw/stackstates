@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>US States Map</title>
     <link rel="stylesheet" href="styles.css">
     
@@ -21,12 +22,11 @@
     <div class="header-container">
         <h1 class="page-title">US State Adoption of Bitcoin</h1>
         <p class="page-description">
-            Current status of legislative state adoption of Bitcoin, typically in the form of a Bitcoin Strategic Reserve.<br>
-            Click on a state to see details and links to official legislation and news.
+            Current legislative state adoption of Bitcoin, typically in the form of a Bitcoin Strategic Reserve.<br>
+            Click on a state to see details.
         </p>
-        <h2 class="page-subtitle">Stay Humble and Stack States</h2>
     </div>
-
+    <h2 class="page-subtitle">Stay Humble and Stack States</h2>
     <div class="legend-container">
         <div class="legend-item">
             <div class="legend-color" style="background-color: #ff9900;"></div>
@@ -46,7 +46,9 @@
     <p class="footer-text">stackstates.com</p>
 
     <div id="map-container">
-        <!-- SVG will be loaded here -->
+        <svg viewBox="0 0 WIDTH HEIGHT" xmlns="http://www.w3.org/2000/svg">
+            <!-- Your SVG content here -->
+        </svg>
     </div>
 
     <!-- Modal Structure -->
