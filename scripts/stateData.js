@@ -187,7 +187,7 @@ const stateData = {
     'PA': {
         name: 'Pennsylvania',
         status: 'pending',
-        details: ['HB 2664 - Strategic Bitcoin Reserve', 'Introduced on Nov 14, 2024 by State Reps Mike Cabell and Aaron Kaufer', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2664', '', 'Other: PASSED - HB 2481 - Bitcoin Rights Bill', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2481']
+        details: ['HB 2664 - Strategic Bitcoin Reserve', 'Introduced on Nov 14, 2024 by State Reps Mike Cabell and Aaron Kaufer', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2664','--------','Other: PASSED - HB 2481 - Bitcoin Rights Bill', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2481']
     },
     'RI': {
         name: 'Rhode Island',

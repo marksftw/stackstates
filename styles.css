@@ -25,6 +25,15 @@ html, body {
     margin-bottom: 20px;
 }
 
+.state {
+    cursor: pointer; /* Change cursor to pointer when hovering over states */
+    transition: fill 0.3s ease; /* Smooth transition for fill color */
+}
+
+.state:hover {
+    opacity: 0.7; /* Change opacity to 0.7 on hover */
+}
+
 /* Adjust Map Container for Desktop */
 @media (min-width: 601px) {
     #map-container {
@@ -66,12 +75,6 @@ html, body {
 img {
     max-width: 100%; /* Ensure images do not exceed the width of their container */
     height: auto; /* Maintain aspect ratio */
-}
-
-/* State Hover Effects */
-#us-map path:hover {
-    opacity: 0.8;
-    cursor: pointer;
 }
 
 /* Modal Styles */
@@ -212,7 +215,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     margin-top: 20px; /* Add space above the description */
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .legend-container {
@@ -292,5 +295,14 @@ body {
     font-size: 0.8em; /* Smaller font size */
     color: #333; /* Dark gray color for text */
     margin-top: 10px; /* Space above the text */
+}
+
+.modal__container a {
+    outline: none; /* Remove the focus outline */
+    text-decoration: none; /* Optional: Remove underline for links */
+}
+
+.modal__container a:focus {
+    outline: none; /* Ensure no outline on focus */
 }
 
