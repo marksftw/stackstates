@@ -13,7 +13,7 @@ html, body {
     overflow: hidden; /* Prevent overflow */
     position: relative; /* Ensure proper positioning */
     padding-left: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 #map-container svg {
@@ -170,7 +170,7 @@ body {
 .header-container {
     text-align: center; /* Center align the text */
     margin: 0; /* Remove margin */
-    padding: 0; /* Remove padding */
+    padding: 20px 0 10px; /* Add padding at the top and bottom */
     width: 100%; /* Ensure full width */
     box-sizing: border-box; /* Include padding and border in width calculations */
 }
@@ -243,7 +243,7 @@ body {
 /* Footer Styles */
 .footer {
     background-color: #f1f1f1; /* Light gray background */
-    padding: 20px; /* Padding around the footer */
+    padding: 2px 20px 20px 20px; /* Padding around the footer */
     text-align: center; /* Center align the text */
     font-family: 'Arial', sans-serif; /* Use a sans-serif font */
     font-size: 0.9em; /* Slightly smaller font size */
