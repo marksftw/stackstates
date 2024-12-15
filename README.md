@@ -13,3 +13,8 @@ A map of the United States that shows legislation of official Bitcoin adoption. 
 ### Future Ideas
 1. Track globally by country
 1. Track individual territories within countries (similar to US States)
+
+### License
+See [LICENSE.txt](LICENSE.txt) file for main project license.
+
+SVG Map is from https://github.com/deytah/svg-us-map which uses Creative Commons Attribution-Share Alike 3.0 Unported.
