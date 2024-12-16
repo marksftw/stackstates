@@ -12,7 +12,7 @@ const stateData = {
     'AZ': {
         name: 'Arizona',
         status: 'none',
-        details: ['Nothing...yet']
+        details: ['Exploring a Strategic Bitcoin Reserve']
     },
     'AR': {
         name: 'Arkansas',
@@ -187,7 +187,7 @@ const stateData = {
     'PA': {
         name: 'Pennsylvania',
         status: 'pending',
-        details: ['HB 2664 - Strategic Bitcoin Reserve', 'Introduced on Nov 14, 2024 by State Reps Mike Cabell and Aaron Kaufer', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2664','--------','Other: PASSED - HB 2481 - Bitcoin Rights Bill', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2481']
+        details: ['HB 2664 - Strategic Bitcoin Reserve', 'Introduced on Nov 14, 2024 by State Reps Mike Cabell and Aaron Kaufer', 'Proposed Allocation: Up to 10% of state funds.', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2664','--------','Other: PASSED - HB 2481 - Bitcoin Rights Bill', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2481']
     },
     'RI': {
         name: 'Rhode Island',
@@ -247,7 +247,7 @@ const stateData = {
     'WY': {
         name: 'Wyoming',
         status: 'none',
-        details: ['Nothing...yet']
+        details: ['Considering a Strategic Bitcoin Reserve','','Wyoming State Token coming in 2025','https://stabletoken.notion.site/Wyoming-Stable-Token-Commission-100c90ef13ad800ab69ff642da4ae0dc']
     },
     'DC': {
         name: 'District of Columbia',
