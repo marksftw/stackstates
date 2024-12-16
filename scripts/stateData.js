@@ -42,7 +42,7 @@ const stateData = {
     'FL': {
         name: 'Florida',
         status: 'none',
-        details: ['Nothing...yet']
+        details: ['Florida Could Launch Strategic Bitcoin Reserve By Q1 2025','https://www.thestreet.com/crypto/policy/florida-could-launch-strategic-bitcoin-reserve-by-q1-2025']
     },
     'GA': {
         name: 'Georgia',
