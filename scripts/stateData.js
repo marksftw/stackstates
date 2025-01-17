@@ -101,8 +101,8 @@ const stateData = {
     },
     'MA': {
         name: 'Massachusetts',
-        status: 'none',
-        details: ['Nothing...yet']
+        status: 'pending',
+        details: ['Jan 17, 2025 - Bill SD.422 An Act Relative to a Bitcoin Stategic Reserve','State Rep. Peter Durant']
     },
     'MI': {
         name: 'Michigan',
@@ -246,8 +246,8 @@ const stateData = {
     },
     'WY': {
         name: 'Wyoming',
-        status: 'none',
-        details: ['Considering a Strategic Bitcoin Reserve','','Wyoming State Token coming in 2025','https://stabletoken.notion.site/Wyoming-Stable-Token-Commission-100c90ef13ad800ab69ff642da4ae0dc']
+        status: 'pending',
+        details: ['Jan 17, 2025 - HB 201 State-funds investment in Bitcoin','State Rep. Jacob Wasserburger','','Also, Wyoming State Token coming in 2025','https://stabletoken.notion.site/Wyoming-Stable-Token-Commission-100c90ef13ad800ab69ff642da4ae0dc']
     },
     'DC': {
         name: 'District of Columbia',
