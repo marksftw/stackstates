@@ -141,8 +141,8 @@ const stateData = {
     },
     'NH': {
         name: 'New Hampshire',
-        status: 'none',
-        details: ['Nothing...yet']
+        status: 'pending',
+        details: ['Jan 10, 2025 - RSA 6 Amendment - Strategic Reserve Established', 'Digital Assets','Does not mention Bitcoin specifically']
     },
     'NJ': {
         name: 'New Jersey',
@@ -166,18 +166,18 @@ const stateData = {
     },
     'ND': {
         name: 'North Dakota',
-        status: 'none',
-        details: ['Nothing...yet']
+        status: 'pending',
+        details: ['Jan 10, 2025 - HCR 3001 Digital Assets','Does not mention Bitcoin specifically']
     },
     'OH': {
         name: 'Ohio',
-        status: 'none',
-        details: ['Nothing...yet']
+        status: 'pending',
+        details: ['Dec 17, 2024 - HB 703 Bitcoin Reserves Act','State Rep. Derek Merrin']
     },
     'OK': {
         name: 'Oklahoma',
-        status: 'none',
-        details: ['Nothing...yet']
+        status: 'pending',
+        details: ['Jan 15, 2025 - HB 1203 Strategic Bitcoin Reserve Act','State Rep. Maynard']
     },
     'OR': {
         name: 'Oregon',
@@ -187,7 +187,7 @@ const stateData = {
     'PA': {
         name: 'Pennsylvania',
         status: 'pending',
-        details: ['HB 2664 - Strategic Bitcoin Reserve', 'Introduced on Nov 14, 2024 by State Reps Mike Cabell and Aaron Kaufer', 'Proposed Allocation: Up to 10% of state funds.', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2664','--------','Other: PASSED - HB 2481 - Bitcoin Rights Bill', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2481']
+        details: ['Nov 14, 2024 - HB 2664 Strategic Bitcoin Reserve', 'State Reps Mike Cabell and Aaron Kaufer', 'Proposed Allocation: Up to 10% of state funds.', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2664','--------','Other: PASSED - HB 2481 - Bitcoin Rights Bill', 'https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023&sind=0&body=H&type=B&bn=2481']
     },
     'RI': {
         name: 'Rhode Island',
@@ -212,7 +212,7 @@ const stateData = {
     'TX': {
         name: 'Texas',
         status: 'pending',
-        details: ['HB 1598 - Strategic Bitcoin Reserve', 'Introduced on Dec 12, 2024 by State Rep. Giovanni Capriglione', 'https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01598I.htm']
+        details: ['Dec 12, 2024 - HB 1598 Strategic Bitcoin Reserve', 'State Rep. Giovanni Capriglione', 'https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01598I.htm']
     },
     'UT': {
         name: 'Utah',
