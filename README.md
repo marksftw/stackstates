@@ -8,7 +8,7 @@ A map of the United States that shows legislation of official Bitcoin adoption. 
 1. Edit the `stateData.js` file and submit a PR
 1. Message Marks on [X](https://x.com/marks_ftw) or [Nostr](https://primal.net/marks)
 
-![Map of US State Bitcoin Adoption](https://i.nostr.build/Rd5qWRxYlhVEjB3D.png)
+![Map of US State Bitcoin Adoption](https://i.nostr.build/SYfm4Obyp2cR1EBG.png)
 
 ### Future Ideas
 1. Track globally by country
