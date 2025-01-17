@@ -2,7 +2,7 @@ const stateData = {
     'AL': {
         name: 'Alabama',
         status: 'none',
-        details: ['Nothing...yet']
+        details: ['Exploring a Strategic Bitcoin Reserve']
     },
     'AK': {
         name: 'Alaska',
