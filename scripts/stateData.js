@@ -11,8 +11,8 @@ const stateData = {
     },
     'AZ': {
         name: 'Arizona',
-        status: 'none',
-        details: ['Exploring a Strategic Bitcoin Reserve']
+        status: 'pending',
+        details: ['Jan 17, 2025 - Article 2.2 Strategic Bitcoin Reserve','State Rep. Wendy Rogers']
     },
     'AR': {
         name: 'Arkansas',
