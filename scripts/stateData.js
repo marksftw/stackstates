@@ -102,7 +102,7 @@ const stateData = {
     'MA': {
         name: 'Massachusetts',
         status: 'pending',
-        details: ['Jan 17, 2025 - Bill SD.422 An Act Relative to a Bitcoin Stategic Reserve','State Rep. Peter Durant']
+        details: ['Jan 17, 2025 - Bill SD.422 An Act Relative to a Bitcoin Stategic Reserve','State Rep. Peter Durant','Also two other bills from State Rep. Christopher Worrell and State Rep. Barry Finegold']
     },
     'MI': {
         name: 'Michigan',
