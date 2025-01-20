@@ -216,8 +216,8 @@ const stateData = {
     },
     'UT': {
         name: 'Utah',
-        status: 'none',
-        details: ['Nothing...yet']
+        status: 'pending',
+        details: ['Jan 20, 2025 - HB 230 Blockchain and Digital Innovation Amendments','State Rep. Jordan Teuscher']
     },
     'VT': {
         name: 'Vermont',
