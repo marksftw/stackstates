@@ -76,8 +76,8 @@ const stateData = {
     },
     'KS': {
         name: 'Kansas',
-        status: 'none',
-        details: ['Nothing...yet']
+        status: 'pending',
+        details: ['Jan 22, 2025 - SB 34 Bitcoin for Employee Retirement Fund','Senator Bowser']
     },
     'KY': {
         name: 'Kentucky',
